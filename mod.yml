@@ -1,0 +1,215 @@
+title: They'll Pay for This
+originalAuthor: danimalforlife
+description: |+
+  THEY'LL PAY FOR THIS
+
+dependencies: 
+assets:
+
+
+#Goofy - Standard#
+- name: obj/P_EX030.mdlx
+  multi:
+  - name: obj/P_EX030_RTN.mdlx
+  - name: obj/P_EX030_WM.mdlx
+  - name: obj/P_EX030_NOBG_RTN.mdlx
+  package: kh2_sixth
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: goofy/P_EX030.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: goofy/P_EX030.texture
+
+
+#Goofy - Standard - High Poly#
+- name: obj/H_ZZ030.mdlx
+  multi:
+  package: kh2_fifth
+  method: binarc
+  source:
+  - name: h_zz
+    type: model
+    method: copy
+    source:
+    - name: goofy/H_ZZ030.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: goofy/H_ZZ030.texture
+
+
+#Goofy - Atlantica#
+- name: obj/N_LM020_PLY.mdlx
+  multi:
+  - name: obj/N_LM020_RTN.mdlx
+  package: kh2_sixth
+  method: binarc
+  source:
+  - name: n_lm
+    type: model
+    method: copy
+    source:
+    - name: goofy/N_LM020_PLY.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: goofy/N_LM020_PLY.texture
+
+
+#Goofy - Atlantica - High Poly#
+- name: obj/H_LM080.mdlx
+  multi:
+  package: kh2_fifth
+  method: binarc
+  source:
+  - name: h_lm
+    type: model
+    method: copy
+    source:
+    - name: goofy/H_LM080.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: goofy/H_LM080.texture
+
+
+#Goofy - Casual - High Poly#
+- name: obj/H_ZZ050.mdlx
+  multi:
+  package: kh2_fifth
+  method: binarc
+  source:
+  - name: h_lm
+    type: model
+    method: copy
+    source:
+    - name: goofy/H_ZZ050.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: goofy/H_ZZ050.texture
+
+
+#Goofy - Christmas Town#
+- name: obj/P_EX030_XM.mdlx
+  multi:
+  - name: obj/P_EX030_XM_RTN.mdlx
+  package: kh2_sixth
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: goofy/P_EX030_XM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: goofy/P_EX030_XM.texture
+
+
+#Goofy - Halloween Town#
+- name: obj/P_EX030_NM.mdlx
+  multi:
+  - name: obj/P_EX030_NM_RTN.mdlx
+  package: kh2_sixth
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: goofy/P_EX030_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: goofy/P_EX030_NM.texture
+
+
+#Goofy - Pride Lands#
+- name: obj/P_LK030.mdlx
+  multi:
+  - name: obj/P_LK030_RTN.mdlx
+  package: kh2_sixth
+  method: binarc
+  source:
+  - name: p_lk
+    type: model
+    method: copy
+    source:
+    - name: goofy/P_LK030.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: goofy/P_LK030.texture
+
+
+#Goofy - Space Paranoids#
+- name: obj/P_EX030_TR.mdlx
+  multi:
+  - name: obj/P_EX030_TR_RTN.mdlx
+  - name: obj/P_EX030_TR_TSURU.mdlx
+  package: kh2_sixth
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: goofy/P_EX030_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: goofy/P_EX030_TR.texture
+
+
+#Goofy - Space Paranoids - High Poly#
+- name: obj/H_ZZ030_TR.mdlx
+  multi:
+  package: kh2_fifth
+  method: binarc
+  source:
+  - name: h_zz
+    type: model
+    method: copy
+    source:
+    - name: goofy/H_ZZ030_TR.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: goofy/H_ZZ030_TR.texture
+
+
+#Goofy - Space Paranoids#
+- name: obj/P_WI030.mdlx
+  multi:
+  - name: obj/P_WI030_RTN.mdlx
+  package: kh2_sixth
+  method: binarc
+  source:
+  - name: p_wi
+    type: model
+    method: copy
+    source:
+    - name: goofy/P_WI030.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: goofy/P_WI030.texture
