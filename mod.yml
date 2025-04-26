@@ -262,7 +262,7 @@ assets:
   package: kh2_sixth
   method: copy
   source:
-  - name: textures/Texture0002 GoofyStone.dds
+  - name: textures/Texture0002GoofyStone.dds
 
 
 #Goofy - Standard - High Poly#
@@ -271,7 +271,7 @@ assets:
   package: kh2_fifth
   method: copy
   source:
-  - name: textures/Texture0000 GoofyStone.dds
+  - name: textures/Texture0000GoofyStone.dds
 - name: remastered/obj/H_ZZ030.mdlx/-1.dds
   multi:
   package: kh2_fifth
@@ -299,14 +299,14 @@ assets:
   package: kh2_sixth
   method: copy
   source:
-  - name: -0LM.dds
+  - name: textures/-0LM.dds
 - name: remastered/obj/N_LM020_PLY.mdlx/-1.dds
   multi:
   - name: remastered/obj/N_LM020_RTN.mdlx/-1.dds
   package: kh2_sixth
   method: copy
   source:
-  - name: textures/Texture0002 GoofyStone.dds
+  - name: textures/Texture0002GoofyStone.dds
 
 
 #Goofy - Atlantica - High Poly#
@@ -315,7 +315,7 @@ assets:
   package: kh2_fifth
   method: copy
   source:
-  - name: textures/Texture0000 GoofyStone.dds
+  - name: textures/Texture0000GoofyStone.dds
 - name: remastered/obj/H_LM080.mdlx/-1.dds
   multi:
   package: kh2_fifth
@@ -342,7 +342,7 @@ assets:
   package: kh2_fifth
   method: copy
   source:
-  - name: textures/Texture0000 GoofyStone.dds
+  - name: textures/Texture0000GoofyStone.dds
 
 
 #Goofy - Christmas Town#
@@ -352,7 +352,7 @@ assets:
   package: kh2_sixth
   method: copy
   source:
-  - name: textures/Texture0002 XMStone.dds
+  - name: textures/Texture0002XMStone.dds
 - name: remastered/obj/P_EX030_XM.mdlx/-1.dds
   multi:
   - name: remastered/obj/P_EX030_XM_RTN.mdlx/-1.dds
@@ -390,7 +390,7 @@ assets:
   package: kh2_sixth
   method: copy
   source:
-  - name: textures/Texture0001 NMStone.dds
+  - name: textures/Texture0001NMStone.dds
 - name: remastered/obj/P_EX030_NM.mdlx/-2.dds
   multi:
   - name: remastered/obj/P_EX030_NM_RTN.mdlx/-2.dds
@@ -421,7 +421,7 @@ assets:
   package: kh2_sixth
   method: copy
   source:
-  - name: textures/Texture0002 GoofyStone.dds
+  - name: textures/Texture0002GoofyStone.dds
 
 
 #Goofy - Space Paranoids#
@@ -506,7 +506,7 @@ assets:
   package: kh2_fifth
   method: copy
   source:
-  - name: textures/Texture0000 TRStone.dds
+  - name: textures/Texture0000TRStone.dds
 
 
 #Goofy - Timeless River#
@@ -516,4 +516,4 @@ assets:
   package: kh2_sixth
   method: copy
   source:
-  - name: textures/Texture0000 WIStone.dds
+  - name: textures/Texture0000WIStone.dds
