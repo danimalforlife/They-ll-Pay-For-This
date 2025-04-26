@@ -238,9 +238,9 @@ assets:
 #Goofy - Standard#
 - name: remastered/obj/P_EX030.mdlx/-0.dds
   multi:
-  - name: remastered/obj/P_EX030_RTN.mdlx-0.dds
-  - name: remastered/obj/P_EX030_WM.mdlx-0.dds
-  - name: remastered/obj/P_EX030_NOBG_RTN.mdlx-0.dds
+  - name: remastered/obj/P_EX030_RTN.mdlx/-0.dds
+  - name: remastered/obj/P_EX030_WM.mdlx/-0.dds
+  - name: remastered/obj/P_EX030_NOBG_RTN.mdlx/-0.dds
   package: kh2_sixth
   method: copy
   source:
