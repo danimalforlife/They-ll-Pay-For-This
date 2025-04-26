@@ -6,7 +6,7 @@ description: |+
 dependencies: 
 assets:
 
-
+###Models###
 #Goofy - Standard#
 - name: obj/P_EX030.mdlx
   multi:
@@ -162,7 +162,6 @@ assets:
 - name: obj/P_EX030_TR.mdlx
   multi:
   - name: obj/P_EX030_TR_RTN.mdlx
-  - name: obj/P_EX030_TR_TSURU.mdlx
   package: kh2_sixth
   method: binarc
   source:
@@ -176,6 +175,24 @@ assets:
     method: copy
     source:
     - name: goofy/P_EX030_TR.texture
+
+
+#Goofy - Space Paranoids - Red Lines#
+- name: obj/P_EX030_TR_TSURU.mdlx
+  multi:
+  package: kh2_sixth
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: goofy/P_EX030_TR_TSURU.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: goofy/P_EX030_TR_TSURU.texture
 
 
 #Goofy - Space Paranoids - High Poly#
@@ -196,7 +213,7 @@ assets:
     - name: goofy/H_ZZ030_TR.texture
 
 
-#Goofy - Space Paranoids#
+#Goofy - Timeless River#
 - name: obj/P_WI030.mdlx
   multi:
   - name: obj/P_WI030_RTN.mdlx
@@ -213,3 +230,290 @@ assets:
     method: copy
     source:
     - name: goofy/P_WI030.texture
+
+
+
+
+###HD Textures###
+#Goofy - Standard#
+- name: remastered/obj/P_EX030.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX030_RTN.mdlx-0.dds
+  - name: remastered/obj/P_EX030_WM.mdlx-0.dds
+  - name: remastered/obj/P_EX030_NOBG_RTN.mdlx-0.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/-0standard.dds
+- name: /remastered/obj/P_EX030.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/P_EX030_RTN.mdlx/-1.dds
+  - name: remastered/obj/P_EX030_WM.mdlx/-1.dds
+  - name: remastered/obj/P_EX030_NOBG_RTN.mdlx/-1.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/-1standard.dds
+- name: /remastered/obj/P_EX030.mdlx/-2.dds
+  multi:
+  - name: remastered/obj/P_EX030_RTN.mdlx/-2.dds
+  - name: remastered/obj/P_EX030_WM.mdlx/-2.dds
+  - name: remastered/obj/P_EX030_NOBG_RTN.mdlx/-2.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/Texture0002 GoofyStone.dds
+
+
+#Goofy - Standard - High Poly#
+- name: remastered/obj/H_ZZ030.mdlx/-0.dds
+  multi:
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: textures/Texture0000 GoofyStone.dds
+- name: remastered/obj/H_ZZ030.mdlx/-1.dds
+  multi:
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: textures/-1HP.dds
+- name: remastered/obj/H_ZZ030.mdlx/-2.dds
+  multi:
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: textures/-2HP.dds
+- name: remastered/obj/H_ZZ030.mdlx/-3.dds
+  multi:
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: textures/-3HP.dds
+
+
+#Goofy - Atlantica#
+- name: remastered/obj/N_LM020_PLY.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/N_LM020_RTN.mdlx/-0.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: -0LM.dds
+- name: remastered/obj/N_LM020_PLY.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/N_LM020_RTN.mdlx/-1.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/Texture0002 GoofyStone.dds
+
+
+#Goofy - Atlantica - High Poly#
+- name: remastered/obj/H_LM080.mdlx/-0.dds
+  multi:
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: textures/Texture0000 GoofyStone.dds
+- name: remastered/obj/H_LM080.mdlx/-1.dds
+  multi:
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: textures/-0LM.dds
+
+
+#Goofy - Casual - High Poly#
+- name: remastered/obj/H_ZZ050.mdlx/-0.dds
+  multi:
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: textures/-0Casual.dds
+- name: remastered/obj/H_ZZ050.mdlx/-1.dds
+  multi:
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: textures/-1Casual.dds
+- name: remastered/obj/H_ZZ050.mdlx/-2.dds
+  multi:
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: textures/Texture0000 GoofyStone.dds
+
+
+#Goofy - Christmas Town#
+- name: remastered/obj/P_EX030_XM.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX030_XM_RTN.mdlx/-0.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/Texture0002 XMStone.dds
+- name: remastered/obj/P_EX030_XM.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/P_EX030_XM_RTN.mdlx/-1.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/-6XM.dds
+- name: remastered/obj/P_EX030_XM.mdlx/-2.dds
+  multi:
+  - name: remastered/obj/P_EX030_XM_RTN.mdlx/-2.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/-1XM.dds
+- name: remastered/obj/P_EX030_XM.mdlx/-3.dds
+  multi:
+  - name: remastered/obj/P_EX030_XM_RTN.mdlx/-3.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/-0XM.dds
+
+
+#Goofy - Halloween Town#
+- name: remastered/obj/P_EX030_NM.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX030_NM_RTN.mdlx/-0.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/-0NM.dds
+- name: remastered/obj/P_EX030_NM.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/P_EX030_NM_RTN.mdlx/-1.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/Texture0001 NMStone.dds
+- name: remastered/obj/P_EX030_NM.mdlx/-2.dds
+  multi:
+  - name: remastered/obj/P_EX030_NM_RTN.mdlx/-2.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/-3NM.dds
+
+
+#Goofy - Pride Lands#
+- name: remastered/obj/P_LK030.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_LK030_RTN.mdlx/-0.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/-0LK.dds
+- name: remastered/obj/P_LK030.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/P_LK030_RTN.mdlx/-1.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/-1LK.dds
+- name: remastered/obj/P_LK030.mdlx/-2.dds
+  multi:
+  - name: remastered/obj/P_LK030_RTN.mdlx/-2.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/Texture0002 GoofyStone.dds
+
+
+#Goofy - Space Paranoids#
+- name: remastered/obj/P_EX030_TR.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_EX030_TR_RTN.mdlx/-0.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/-0TR.dds
+- name: remastered/obj/P_EX030_TR.mdlx/-1.dds
+  multi:
+  - name: remastered/obj/P_EX030_TR_RTN.mdlx/-1.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/-2TR.dds
+- name: remastered/obj/P_EX030_TR.mdlx/-2.dds
+  multi:
+  - name: remastered/obj/P_EX030_TR_RTN.mdlx/-2.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/-1TR.dds
+- name: remastered/obj/P_EX030_TR.mdlx/-3.dds
+  multi:
+  - name: remastered/obj/P_EX030_TR_RTN.mdlx/-3.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/Texture0003TRStone.dds
+
+
+#Goofy - Space Paranoids - Red Lines#
+- name: remastered/obj/P_EX030_TR_TSURU.mdlx/-0.dds
+  multi:
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/-0TRRL.dds
+- name: remastered/obj/P_EX030_TR_TSURU.mdlx/-1.dds
+  multi:
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/-2TRRL.dds
+- name: remastered/obj/P_EX030_TR_TSURU.mdlx/-2.dds
+  multi:
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/-1TRRL.dds
+- name: remastered/obj/P_EX030_TR_TSURU.mdlx/-3.dds
+  multi:
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/Texture0003TRRedLinesStone.dds
+
+
+#Goofy - Space Paranoids - High Poly#
+- name: remastered/obj/H_ZZ030_TR.mdlx/-0.dds
+  multi:
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: textures/-1TRHP.dds
+- name: remastered/obj/H_ZZ030_TR.mdlx/-1.dds
+  multi:
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: textures/-2TRHP.dds
+- name: remastered/obj/H_ZZ030_TR.mdlx/-2.dds
+  multi:
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: textures/-3TRHP.dds
+- name: remastered/obj/H_ZZ030_TR.mdlx/-3.dds
+  multi:
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: textures/Texture0000 TRStone.dds
+
+
+#Goofy - Timeless River#
+- name: remastered/obj/P_WI030.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/P_WI030_RTN.mdlx/-0.dds
+  package: kh2_sixth
+  method: copy
+  source:
+  - name: textures/Texture0000 WIStone.dds
