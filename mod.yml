@@ -245,7 +245,7 @@ assets:
   method: copy
   source:
   - name: textures/-0standard.dds
-- name: /remastered/obj/P_EX030.mdlx/-1.dds
+- name: remastered/obj/P_EX030.mdlx/-1.dds
   multi:
   - name: remastered/obj/P_EX030_RTN.mdlx/-1.dds
   - name: remastered/obj/P_EX030_WM.mdlx/-1.dds
@@ -254,7 +254,7 @@ assets:
   method: copy
   source:
   - name: textures/-1standard.dds
-- name: /remastered/obj/P_EX030.mdlx/-2.dds
+- name: remastered/obj/P_EX030.mdlx/-2.dds
   multi:
   - name: remastered/obj/P_EX030_RTN.mdlx/-2.dds
   - name: remastered/obj/P_EX030_WM.mdlx/-2.dds
