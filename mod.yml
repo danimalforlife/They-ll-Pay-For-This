@@ -445,7 +445,7 @@ assets:
   package: kh2_sixth
   method: copy
   source:
-  - name: textures/-2TR.dds
+  - name: textures/-1TR.dds
 - name: remastered/obj/P_EX030_TR.mdlx/-3.dds
   multi:
   - name: remastered/obj/P_EX030_TR_RTN.mdlx/-3.dds
